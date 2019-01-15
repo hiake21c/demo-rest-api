@@ -86,6 +86,7 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-expression:5.1.4.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.postgresql:postgresql:42.2.5" level="project" />
     <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.18.4" level="project" />
+    <orderEntry type="library" name="Maven: org.modelmapper:modelmapper:2.3.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.h2database:h2:1.4.197" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-starter-test:2.1.2.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-test:2.1.2.RELEASE" level="project" />

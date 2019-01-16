@@ -2,6 +2,7 @@ package com.jongminkim.demorestapi;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.jongminkim.demorestapi.events.Event;
+import com.jongminkim.demorestapi.events.EventDto;
 import com.jongminkim.demorestapi.events.EventRepository;
 import com.jongminkim.demorestapi.events.EventStatus;
 import org.hamcrest.Matchers;
@@ -69,5 +70,33 @@ public class EventControllerTests {
                 .andExpect(jsonPath("free").value(Matchers.not(true)))
                 .andExpect(jsonPath("eventStatus").value(Matchers.not(EventStatus.DRAFT)))
                 ;
+    }
+
+
+    @Test
+    public void createEvent_bed_request() throws Exception {
+        Event event = Event.builder()
+                .name("spring")
+                .description("REST API Development with spring")
+                .beginEventDateTime(LocalDateTime.of(2018, 11, 20, 13, 13))
+                .closeEnrollmentDateTime(LocalDateTime.of(2018,11,25,15,13))
+                .endEventDateTime(LocalDateTime.of(2018,12, 26 ,13,13,13))
+                .basePrice(100)
+                .maxPrice(200)
+                .limitOfEnrollment(100)
+                .location("강남역  D2 스타텁 팩토리")
+                .free(true)
+                .offline(false)
+                .eventStatus(EventStatus.PUBLISHED)
+                .build();
+
+        mockMvc.perform(post("/api/events/")
+                .contentType(MediaType.APPLICATION_JSON_UTF8)
+                .accept(MediaTypes.HAL_JSON) //Hypertext application language
+                .content(objectMapper.writeValueAsString(event)))
+                .andDo(print())
+                .andExpect(status().isBadRequest())
+
+        ;
     }
 }

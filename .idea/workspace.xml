@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb61a8b-0989-44b0-bd3e-f28a35e28b6d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/EventController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/EventController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/jongminkim/demorestapi/EventControllerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jongminkim/demorestapi/EventControllerTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,8 +28,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/jongminkim/demorestapi/EventControllerTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="109" column="65" selection-start-line="109" selection-start-column="65" selection-end-line="109" selection-end-column="65" />
+            <state relative-caret-position="213">
+              <caret line="42" column="40" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/common/TestDescription.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,15 +90,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/DemoRestApiApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -156,6 +157,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/events/EventDto.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/EventController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/events/EventValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/common/TestDescription.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/jongminkim/demorestapi/EventControllerTests.java" />
       </list>
     </option>
@@ -276,7 +278,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547615572725" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547615972256" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -307,7 +309,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EventControllerTests.createEvent_Bad_Request_Empty_Input">
+  <component name="RunManager" selected="JUnit.EventControllerTests">
+    <configuration name="EventControllerTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo-rest-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jongminkim.demorestapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jongminkim.demorestapi" />
+      <option name="MAIN_CLASS_NAME" value="com.jongminkim.demorestapi.EventControllerTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EventControllerTests.createEvent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo-rest-api" />
       <extension name="coverage">
@@ -356,22 +373,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EventTest.builder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="demo-rest-api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jongminkim.demorestapi.events.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.jongminkim.demorestapi.events" />
-      <option name="MAIN_CLASS_NAME" value="com.jongminkim.demorestapi.events.EventTest" />
-      <option name="METHOD_NAME" value="builder" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="EventTest.javaBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo-rest-api" />
       <extension name="coverage">
@@ -397,11 +398,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EventControllerTests" />
         <item itemvalue="JUnit.EventControllerTests.createEvent_Bad_Request_Empty_Input" />
         <item itemvalue="JUnit.EventControllerTests.createEvent_bed_request" />
         <item itemvalue="JUnit.EventControllerTests.createEvent" />
         <item itemvalue="JUnit.EventTest.javaBean" />
-        <item itemvalue="JUnit.EventTest.builder" />
       </list>
     </recent_temporary>
   </component>
@@ -416,7 +417,7 @@
       <option name="presentableId" value="Default" />
       <updated>1547527823154</updated>
       <workItem from="1547527824500" duration="6974000" />
-      <workItem from="1547613572455" duration="1953000" />
+      <workItem from="1547613572455" duration="2394000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1547527871740</created>
@@ -429,9 +430,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EventControllerTests_createEvent - 2019.01.14 at 22h 49m 12s.xml">
-      <configuration name="EventControllerTests.createEvent" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="EventControllerTests_createEvent - 2019.01.14 at 22h 52m 33s.xml">
       <configuration name="EventControllerTests.createEvent" configurationId="JUnit" />
     </history-entry>
@@ -459,9 +457,12 @@
     <history-entry file="EventControllerTests_createEvent_Bad_Request_Empty_Input - 2019.01.15 at 21h 09m 46s.xml">
       <configuration name="EventControllerTests.createEvent_Bad_Request_Empty_Input" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="EventControllerTests_createEvent_Bad_Request_Empty_Input - 2019.01.15 at 21h 12m 26s.xml">
+      <configuration name="EventControllerTests.createEvent_Bad_Request_Empty_Input" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8927000" />
+    <option name="totallyTimeSpent" value="9368000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="5" y="23" width="1675" height="963" extended-state="6" />
@@ -477,13 +478,13 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3295063" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3295063" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3993135" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3295063" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3295063" />
       <window_info anchor="bottom" id="Docker" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
@@ -647,10 +648,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/common/TestDescription.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/jongminkim/demorestapi/EventControllerTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="109" column="65" selection-start-line="109" selection-start-column="65" selection-end-line="109" selection-end-column="65" />
+        <state relative-caret-position="213">
+          <caret line="42" column="40" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

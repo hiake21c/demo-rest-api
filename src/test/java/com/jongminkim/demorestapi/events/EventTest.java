@@ -27,4 +27,71 @@ public class EventTest {
         assertThat(event.getName()).isEqualTo(event1);
         assertThat(event.getDescription()).isEqualTo(desc);
     }
+
+    @Test
+    public void testFree(){
+
+        //given
+        Event event = Event.builder()
+                .basePrice(0)
+                .maxPrice(0)
+                .build();
+
+        //when
+        event.update();
+
+        //then
+        assertThat(event.isFree()).isTrue();
+
+        //given
+        event = Event.builder()
+                .basePrice(100)
+                .maxPrice(0)
+                .build();
+
+        //when
+        event.update();
+
+        //then
+        assertThat(event.isFree()).isFalse();
+
+        //given
+        event = Event.builder()
+                .basePrice(0)
+                .maxPrice(100)
+                .build();
+
+        //when
+        event.update();
+
+        //then
+        assertThat(event.isFree()).isFalse();
+    }
+
+    @Test
+    public void testOffline() {
+        //given
+        Event event = Event.builder()
+                .location("카카오 게임즈 얼바인")
+                .build();
+
+        //when
+        event.update();
+
+        //then
+        assertThat(event.isOffline()).isTrue();
+
+
+        //givine
+        event = Event.builder()
+                .build();
+
+        //when
+        event.update();
+
+        //then
+        assertThat(event.isOffline()).isFalse();
+
+
+    }
 }

@@ -1,0 +1,4 @@
+com/jongminkim/demorestapi/DemoRestApiApplicationTests.class
+com/jongminkim/demorestapi/events/EventTest.class
+com/jongminkim/demorestapi/EventControllerTests.class
+com/jongminkim/demorestapi/common/RestDocsConfiguration.class

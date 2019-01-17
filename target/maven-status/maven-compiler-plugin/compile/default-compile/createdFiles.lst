@@ -1,0 +1,12 @@
+com/jongminkim/demorestapi/events/Event.class
+com/jongminkim/demorestapi/events/EventDto$EventDtoBuilder.class
+com/jongminkim/demorestapi/DemoRestApiApplication.class
+com/jongminkim/demorestapi/events/EventValidator.class
+com/jongminkim/demorestapi/common/ErrorsSerializer.class
+com/jongminkim/demorestapi/events/EventDto.class
+com/jongminkim/demorestapi/common/TestDescription.class
+com/jongminkim/demorestapi/events/EventRepository.class
+com/jongminkim/demorestapi/events/Event$EventBuilder.class
+com/jongminkim/demorestapi/EventController.class
+com/jongminkim/demorestapi/events/EventResource.class
+com/jongminkim/demorestapi/events/EventStatus.class

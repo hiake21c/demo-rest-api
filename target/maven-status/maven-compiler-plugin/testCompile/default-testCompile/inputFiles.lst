@@ -1,4 +1,6 @@
 /Users/jongminkim/IdeaProjects/demo-rest-api/src/test/java/com/jongminkim/demorestapi/DemoRestApiApplicationTests.java
+/Users/jongminkim/IdeaProjects/demo-rest-api/src/test/java/com/jongminkim/demorestapi/common/BaseControllerTest.java
+/Users/jongminkim/IdeaProjects/demo-rest-api/src/test/java/com/jongminkim/demorestapi/index/IndexControllerTest.java
 /Users/jongminkim/IdeaProjects/demo-rest-api/src/test/java/com/jongminkim/demorestapi/EventControllerTests.java
 /Users/jongminkim/IdeaProjects/demo-rest-api/src/test/java/com/jongminkim/demorestapi/events/EventTest.java
 /Users/jongminkim/IdeaProjects/demo-rest-api/src/test/java/com/jongminkim/demorestapi/common/RestDocsConfiguration.java

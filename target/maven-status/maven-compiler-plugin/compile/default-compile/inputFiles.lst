@@ -4,7 +4,9 @@
 /Users/jongminkim/IdeaProjects/demo-rest-api/src/main/java/com/jongminkim/demorestapi/events/Event.java
 /Users/jongminkim/IdeaProjects/demo-rest-api/src/main/java/com/jongminkim/demorestapi/events/EventDto.java
 /Users/jongminkim/IdeaProjects/demo-rest-api/src/main/java/com/jongminkim/demorestapi/events/EventValidator.java
+/Users/jongminkim/IdeaProjects/demo-rest-api/src/main/java/com/jongminkim/demorestapi/index/IndexController.java
 /Users/jongminkim/IdeaProjects/demo-rest-api/src/main/java/com/jongminkim/demorestapi/events/EventResource.java
 /Users/jongminkim/IdeaProjects/demo-rest-api/src/main/java/com/jongminkim/demorestapi/common/ErrorsSerializer.java
 /Users/jongminkim/IdeaProjects/demo-rest-api/src/main/java/com/jongminkim/demorestapi/common/TestDescription.java
+/Users/jongminkim/IdeaProjects/demo-rest-api/src/main/java/com/jongminkim/demorestapi/common/ErrorsResource.java
 /Users/jongminkim/IdeaProjects/demo-rest-api/src/main/java/com/jongminkim/demorestapi/DemoRestApiApplication.java

@@ -1,6 +1,7 @@
 package com.jongminkim.demorestapi;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.jongminkim.demorestapi.common.BaseControllerTest;
 import com.jongminkim.demorestapi.common.RestDocsConfiguration;
 import com.jongminkim.demorestapi.common.TestDescription;
 import com.jongminkim.demorestapi.events.Event;
@@ -36,26 +37,10 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
-
-@RunWith(SpringRunner.class)
-@SpringBootTest
-@AutoConfigureMockMvc
-@AutoConfigureRestDocs
-@Import(RestDocsConfiguration.class)
-@ActiveProfiles("test")
-public class EventControllerTests {
-
-    @Autowired
-    MockMvc mockMvc;
-
-    @Autowired
-    ObjectMapper objectMapper;
+public class EventControllerTests extends BaseControllerTest {
 
     @Autowired
     EventRepository eventRepository;
-
-    @Autowired
-    ModelMapper modelMapper;
 
     @Test
     @TestDescription("정상적으로 이벤트를 생성하는 테스트")

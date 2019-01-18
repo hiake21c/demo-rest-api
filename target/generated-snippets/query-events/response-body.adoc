@@ -1,0 +1,234 @@
+[source,options="nowrap"]
+----
+{
+  "_embedded" : {
+    "eventList" : [ {
+      "id" : 27,
+      "name" : "event 26",
+      "description" : null,
+      "beginEnrollmentDateTime" : null,
+      "closeEnrollmentDateTime" : null,
+      "beginEventDateTime" : null,
+      "endEventDateTime" : null,
+      "location" : null,
+      "basePrice" : 0,
+      "maxPrice" : 0,
+      "limitOfEnrollment" : 0,
+      "offline" : false,
+      "free" : false,
+      "eventStatus" : null,
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost:8080/api/events/27"
+        }
+      }
+    }, {
+      "id" : 26,
+      "name" : "event 25",
+      "description" : null,
+      "beginEnrollmentDateTime" : null,
+      "closeEnrollmentDateTime" : null,
+      "beginEventDateTime" : null,
+      "endEventDateTime" : null,
+      "location" : null,
+      "basePrice" : 0,
+      "maxPrice" : 0,
+      "limitOfEnrollment" : 0,
+      "offline" : false,
+      "free" : false,
+      "eventStatus" : null,
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost:8080/api/events/26"
+        }
+      }
+    }, {
+      "id" : 25,
+      "name" : "event 24",
+      "description" : null,
+      "beginEnrollmentDateTime" : null,
+      "closeEnrollmentDateTime" : null,
+      "beginEventDateTime" : null,
+      "endEventDateTime" : null,
+      "location" : null,
+      "basePrice" : 0,
+      "maxPrice" : 0,
+      "limitOfEnrollment" : 0,
+      "offline" : false,
+      "free" : false,
+      "eventStatus" : null,
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost:8080/api/events/25"
+        }
+      }
+    }, {
+      "id" : 24,
+      "name" : "event 23",
+      "description" : null,
+      "beginEnrollmentDateTime" : null,
+      "closeEnrollmentDateTime" : null,
+      "beginEventDateTime" : null,
+      "endEventDateTime" : null,
+      "location" : null,
+      "basePrice" : 0,
+      "maxPrice" : 0,
+      "limitOfEnrollment" : 0,
+      "offline" : false,
+      "free" : false,
+      "eventStatus" : null,
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost:8080/api/events/24"
+        }
+      }
+    }, {
+      "id" : 23,
+      "name" : "event 22",
+      "description" : null,
+      "beginEnrollmentDateTime" : null,
+      "closeEnrollmentDateTime" : null,
+      "beginEventDateTime" : null,
+      "endEventDateTime" : null,
+      "location" : null,
+      "basePrice" : 0,
+      "maxPrice" : 0,
+      "limitOfEnrollment" : 0,
+      "offline" : false,
+      "free" : false,
+      "eventStatus" : null,
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost:8080/api/events/23"
+        }
+      }
+    }, {
+      "id" : 22,
+      "name" : "event 21",
+      "description" : null,
+      "beginEnrollmentDateTime" : null,
+      "closeEnrollmentDateTime" : null,
+      "beginEventDateTime" : null,
+      "endEventDateTime" : null,
+      "location" : null,
+      "basePrice" : 0,
+      "maxPrice" : 0,
+      "limitOfEnrollment" : 0,
+      "offline" : false,
+      "free" : false,
+      "eventStatus" : null,
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost:8080/api/events/22"
+        }
+      }
+    }, {
+      "id" : 21,
+      "name" : "event 20",
+      "description" : null,
+      "beginEnrollmentDateTime" : null,
+      "closeEnrollmentDateTime" : null,
+      "beginEventDateTime" : null,
+      "endEventDateTime" : null,
+      "location" : null,
+      "basePrice" : 0,
+      "maxPrice" : 0,
+      "limitOfEnrollment" : 0,
+      "offline" : false,
+      "free" : false,
+      "eventStatus" : null,
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost:8080/api/events/21"
+        }
+      }
+    }, {
+      "id" : 3,
+      "name" : "event 2",
+      "description" : null,
+      "beginEnrollmentDateTime" : null,
+      "closeEnrollmentDateTime" : null,
+      "beginEventDateTime" : null,
+      "endEventDateTime" : null,
+      "location" : null,
+      "basePrice" : 0,
+      "maxPrice" : 0,
+      "limitOfEnrollment" : 0,
+      "offline" : false,
+      "free" : false,
+      "eventStatus" : null,
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost:8080/api/events/3"
+        }
+      }
+    }, {
+      "id" : 20,
+      "name" : "event 19",
+      "description" : null,
+      "beginEnrollmentDateTime" : null,
+      "closeEnrollmentDateTime" : null,
+      "beginEventDateTime" : null,
+      "endEventDateTime" : null,
+      "location" : null,
+      "basePrice" : 0,
+      "maxPrice" : 0,
+      "limitOfEnrollment" : 0,
+      "offline" : false,
+      "free" : false,
+      "eventStatus" : null,
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost:8080/api/events/20"
+        }
+      }
+    }, {
+      "id" : 19,
+      "name" : "event 18",
+      "description" : null,
+      "beginEnrollmentDateTime" : null,
+      "closeEnrollmentDateTime" : null,
+      "beginEventDateTime" : null,
+      "endEventDateTime" : null,
+      "location" : null,
+      "basePrice" : 0,
+      "maxPrice" : 0,
+      "limitOfEnrollment" : 0,
+      "offline" : false,
+      "free" : false,
+      "eventStatus" : null,
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost:8080/api/events/19"
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "first" : {
+      "href" : "http://localhost:8080/api/events?page=0&size=10&sort=name,desc"
+    },
+    "prev" : {
+      "href" : "http://localhost:8080/api/events?page=0&size=10&sort=name,desc"
+    },
+    "self" : {
+      "href" : "http://localhost:8080/api/events?page=1&size=10&sort=name,desc"
+    },
+    "next" : {
+      "href" : "http://localhost:8080/api/events?page=2&size=10&sort=name,desc"
+    },
+    "last" : {
+      "href" : "http://localhost:8080/api/events?page=2&size=10&sort=name,desc"
+    },
+    "profile" : {
+      "href" : "/docs/index.html#resources-events-queryEvents"
+    }
+  },
+  "page" : {
+    "size" : 10,
+    "totalElements" : 30,
+    "totalPages" : 3,
+    "number" : 1
+  }
+}
+----

@@ -1,209 +1,209 @@
 [source,http,options="nowrap"]
 ----
 HTTP/1.1 200 OK
-Content-Length: 5941
 Content-Type: application/hal+json;charset=UTF-8
+Content-Length: 7288
 
 {
   "_embedded" : {
     "eventList" : [ {
-      "id" : 27,
-      "name" : "event 26",
-      "description" : null,
-      "beginEnrollmentDateTime" : null,
-      "closeEnrollmentDateTime" : null,
-      "beginEventDateTime" : null,
-      "endEventDateTime" : null,
-      "location" : null,
-      "basePrice" : 0,
-      "maxPrice" : 0,
-      "limitOfEnrollment" : 0,
+      "id" : 32,
+      "name" : "spring",
+      "description" : "REST API Development with spring",
+      "beginEnrollmentDateTime" : "2018-12-24T13:13:00",
+      "closeEnrollmentDateTime" : "2018-12-25T13:13:00",
+      "beginEventDateTime" : "2018-12-24T13:13:00",
+      "endEventDateTime" : "2018-12-25T13:13:13",
+      "location" : "강남역  D2 스타텁 팩토리",
+      "basePrice" : 100,
+      "maxPrice" : 200,
+      "limitOfEnrollment" : 100,
       "offline" : false,
-      "free" : false,
-      "eventStatus" : null,
+      "free" : true,
+      "eventStatus" : "DRAFT",
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost:8080/api/events/32"
+        }
+      }
+    }, {
+      "id" : 31,
+      "name" : "spring",
+      "description" : "REST API Development with spring",
+      "beginEnrollmentDateTime" : "2018-12-24T13:13:00",
+      "closeEnrollmentDateTime" : "2018-12-25T13:13:00",
+      "beginEventDateTime" : "2018-12-24T13:13:00",
+      "endEventDateTime" : "2018-12-25T13:13:13",
+      "location" : "강남역  D2 스타텁 팩토리",
+      "basePrice" : 100,
+      "maxPrice" : 200,
+      "limitOfEnrollment" : 100,
+      "offline" : false,
+      "free" : true,
+      "eventStatus" : "DRAFT",
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost:8080/api/events/31"
+        }
+      }
+    }, {
+      "id" : 27,
+      "name" : "spring",
+      "description" : "REST API Development with spring",
+      "beginEnrollmentDateTime" : "2018-12-24T13:13:00",
+      "closeEnrollmentDateTime" : "2018-12-25T13:13:00",
+      "beginEventDateTime" : "2018-12-24T13:13:00",
+      "endEventDateTime" : "2018-12-25T13:13:13",
+      "location" : "강남역  D2 스타텁 팩토리",
+      "basePrice" : 100,
+      "maxPrice" : 200,
+      "limitOfEnrollment" : 100,
+      "offline" : false,
+      "free" : true,
+      "eventStatus" : "DRAFT",
       "_links" : {
         "self" : {
           "href" : "http://localhost:8080/api/events/27"
         }
       }
     }, {
-      "id" : 26,
-      "name" : "event 25",
-      "description" : null,
-      "beginEnrollmentDateTime" : null,
-      "closeEnrollmentDateTime" : null,
-      "beginEventDateTime" : null,
-      "endEventDateTime" : null,
-      "location" : null,
-      "basePrice" : 0,
-      "maxPrice" : 0,
-      "limitOfEnrollment" : 0,
+      "id" : 28,
+      "name" : "spring",
+      "description" : "REST API Development with spring",
+      "beginEnrollmentDateTime" : "2018-12-24T13:13:00",
+      "closeEnrollmentDateTime" : "2018-12-25T13:13:00",
+      "beginEventDateTime" : "2018-12-24T13:13:00",
+      "endEventDateTime" : "2018-12-25T13:13:13",
+      "location" : "강남역  D2 스타텁 팩토리",
+      "basePrice" : 100,
+      "maxPrice" : 200,
+      "limitOfEnrollment" : 100,
       "offline" : false,
-      "free" : false,
-      "eventStatus" : null,
+      "free" : true,
+      "eventStatus" : "DRAFT",
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost:8080/api/events/28"
+        }
+      }
+    }, {
+      "id" : 26,
+      "name" : "spring",
+      "description" : "REST API Development with spring",
+      "beginEnrollmentDateTime" : "2018-12-24T13:13:00",
+      "closeEnrollmentDateTime" : "2018-12-25T13:13:00",
+      "beginEventDateTime" : "2018-12-24T13:13:00",
+      "endEventDateTime" : "2018-12-25T13:13:13",
+      "location" : "강남역  D2 스타텁 팩토리",
+      "basePrice" : 100,
+      "maxPrice" : 200,
+      "limitOfEnrollment" : 100,
+      "offline" : false,
+      "free" : true,
+      "eventStatus" : "DRAFT",
       "_links" : {
         "self" : {
           "href" : "http://localhost:8080/api/events/26"
         }
       }
     }, {
-      "id" : 25,
-      "name" : "event 24",
-      "description" : null,
-      "beginEnrollmentDateTime" : null,
-      "closeEnrollmentDateTime" : null,
-      "beginEventDateTime" : null,
-      "endEventDateTime" : null,
-      "location" : null,
-      "basePrice" : 0,
-      "maxPrice" : 0,
-      "limitOfEnrollment" : 0,
-      "offline" : false,
-      "free" : false,
-      "eventStatus" : null,
-      "_links" : {
-        "self" : {
-          "href" : "http://localhost:8080/api/events/25"
-        }
-      }
-    }, {
-      "id" : 24,
-      "name" : "event 23",
-      "description" : null,
-      "beginEnrollmentDateTime" : null,
-      "closeEnrollmentDateTime" : null,
-      "beginEventDateTime" : null,
-      "endEventDateTime" : null,
-      "location" : null,
-      "basePrice" : 0,
-      "maxPrice" : 0,
-      "limitOfEnrollment" : 0,
-      "offline" : false,
-      "free" : false,
-      "eventStatus" : null,
-      "_links" : {
-        "self" : {
-          "href" : "http://localhost:8080/api/events/24"
-        }
-      }
-    }, {
-      "id" : 23,
-      "name" : "event 22",
-      "description" : null,
-      "beginEnrollmentDateTime" : null,
-      "closeEnrollmentDateTime" : null,
-      "beginEventDateTime" : null,
-      "endEventDateTime" : null,
-      "location" : null,
-      "basePrice" : 0,
-      "maxPrice" : 0,
-      "limitOfEnrollment" : 0,
-      "offline" : false,
-      "free" : false,
-      "eventStatus" : null,
-      "_links" : {
-        "self" : {
-          "href" : "http://localhost:8080/api/events/23"
-        }
-      }
-    }, {
       "id" : 22,
-      "name" : "event 21",
-      "description" : null,
-      "beginEnrollmentDateTime" : null,
-      "closeEnrollmentDateTime" : null,
-      "beginEventDateTime" : null,
-      "endEventDateTime" : null,
-      "location" : null,
-      "basePrice" : 0,
-      "maxPrice" : 0,
-      "limitOfEnrollment" : 0,
+      "name" : "spring",
+      "description" : "REST API Development with spring",
+      "beginEnrollmentDateTime" : "2018-12-24T13:13:00",
+      "closeEnrollmentDateTime" : "2018-12-25T13:13:00",
+      "beginEventDateTime" : "2018-12-24T13:13:00",
+      "endEventDateTime" : "2018-12-25T13:13:13",
+      "location" : "강남역  D2 스타텁 팩토리",
+      "basePrice" : 100,
+      "maxPrice" : 200,
+      "limitOfEnrollment" : 100,
       "offline" : false,
-      "free" : false,
-      "eventStatus" : null,
+      "free" : true,
+      "eventStatus" : "DRAFT",
       "_links" : {
         "self" : {
           "href" : "http://localhost:8080/api/events/22"
         }
       }
     }, {
-      "id" : 21,
-      "name" : "event 20",
-      "description" : null,
-      "beginEnrollmentDateTime" : null,
-      "closeEnrollmentDateTime" : null,
-      "beginEventDateTime" : null,
-      "endEventDateTime" : null,
-      "location" : null,
-      "basePrice" : 0,
-      "maxPrice" : 0,
-      "limitOfEnrollment" : 0,
+      "id" : 16,
+      "name" : "spring",
+      "description" : "REST API Development with spring",
+      "beginEnrollmentDateTime" : "2018-12-24T13:13:00",
+      "closeEnrollmentDateTime" : "2018-12-25T13:13:00",
+      "beginEventDateTime" : "2018-12-24T13:13:00",
+      "endEventDateTime" : "2018-12-25T13:13:13",
+      "location" : "강남역  D2 스타텁 팩토리",
+      "basePrice" : 100,
+      "maxPrice" : 200,
+      "limitOfEnrollment" : 100,
       "offline" : false,
-      "free" : false,
-      "eventStatus" : null,
+      "free" : true,
+      "eventStatus" : "DRAFT",
       "_links" : {
         "self" : {
-          "href" : "http://localhost:8080/api/events/21"
+          "href" : "http://localhost:8080/api/events/16"
         }
       }
     }, {
-      "id" : 3,
-      "name" : "event 2",
-      "description" : null,
-      "beginEnrollmentDateTime" : null,
-      "closeEnrollmentDateTime" : null,
-      "beginEventDateTime" : null,
-      "endEventDateTime" : null,
-      "location" : null,
-      "basePrice" : 0,
-      "maxPrice" : 0,
-      "limitOfEnrollment" : 0,
+      "id" : 9,
+      "name" : "spring",
+      "description" : "REST API Development with spring",
+      "beginEnrollmentDateTime" : "2018-12-24T13:13:00",
+      "closeEnrollmentDateTime" : "2018-12-25T13:13:00",
+      "beginEventDateTime" : "2018-12-24T13:13:00",
+      "endEventDateTime" : "2018-12-25T13:13:13",
+      "location" : "강남역  D2 스타텁 팩토리",
+      "basePrice" : 100,
+      "maxPrice" : 200,
+      "limitOfEnrollment" : 100,
       "offline" : false,
-      "free" : false,
-      "eventStatus" : null,
+      "free" : true,
+      "eventStatus" : "DRAFT",
       "_links" : {
         "self" : {
-          "href" : "http://localhost:8080/api/events/3"
+          "href" : "http://localhost:8080/api/events/9"
         }
       }
     }, {
-      "id" : 20,
-      "name" : "event 19",
-      "description" : null,
-      "beginEnrollmentDateTime" : null,
-      "closeEnrollmentDateTime" : null,
-      "beginEventDateTime" : null,
-      "endEventDateTime" : null,
-      "location" : null,
-      "basePrice" : 0,
-      "maxPrice" : 0,
-      "limitOfEnrollment" : 0,
+      "id" : 8,
+      "name" : "spring",
+      "description" : "REST API Development with spring",
+      "beginEnrollmentDateTime" : "2018-12-24T13:13:00",
+      "closeEnrollmentDateTime" : "2018-12-25T13:13:00",
+      "beginEventDateTime" : "2018-12-24T13:13:00",
+      "endEventDateTime" : "2018-12-25T13:13:13",
+      "location" : "강남역  D2 스타텁 팩토리",
+      "basePrice" : 100,
+      "maxPrice" : 200,
+      "limitOfEnrollment" : 100,
       "offline" : false,
-      "free" : false,
-      "eventStatus" : null,
+      "free" : true,
+      "eventStatus" : "DRAFT",
       "_links" : {
         "self" : {
-          "href" : "http://localhost:8080/api/events/20"
+          "href" : "http://localhost:8080/api/events/8"
         }
       }
     }, {
-      "id" : 19,
-      "name" : "event 18",
-      "description" : null,
-      "beginEnrollmentDateTime" : null,
-      "closeEnrollmentDateTime" : null,
-      "beginEventDateTime" : null,
-      "endEventDateTime" : null,
-      "location" : null,
-      "basePrice" : 0,
-      "maxPrice" : 0,
-      "limitOfEnrollment" : 0,
+      "id" : 7,
+      "name" : "spring",
+      "description" : "REST API Development with spring",
+      "beginEnrollmentDateTime" : "2018-12-24T13:13:00",
+      "closeEnrollmentDateTime" : "2018-12-25T13:13:00",
+      "beginEventDateTime" : "2018-12-24T13:13:00",
+      "endEventDateTime" : "2018-12-25T13:13:13",
+      "location" : "강남역  D2 스타텁 팩토리",
+      "basePrice" : 100,
+      "maxPrice" : 200,
+      "limitOfEnrollment" : 100,
       "offline" : false,
-      "free" : false,
-      "eventStatus" : null,
+      "free" : true,
+      "eventStatus" : "DRAFT",
       "_links" : {
         "self" : {
-          "href" : "http://localhost:8080/api/events/19"
+          "href" : "http://localhost:8080/api/events/7"
         }
       }
     } ]
@@ -222,7 +222,7 @@ Content-Type: application/hal+json;charset=UTF-8
       "href" : "http://localhost:8080/api/events?page=2&size=10&sort=name,desc"
     },
     "last" : {
-      "href" : "http://localhost:8080/api/events?page=2&size=10&sort=name,desc"
+      "href" : "http://localhost:8080/api/events?page=3&size=10&sort=name,desc"
     },
     "profile" : {
       "href" : "/docs/index.html#resources-events-queryEvents"
@@ -230,8 +230,8 @@ Content-Type: application/hal+json;charset=UTF-8
   },
   "page" : {
     "size" : 10,
-    "totalElements" : 30,
-    "totalPages" : 3,
+    "totalElements" : 32,
+    "totalPages" : 4,
     "number" : 1
   }
 }

@@ -3,6 +3,7 @@ package com.jongminkim.demorestapi;
 import com.jongminkim.demorestapi.common.ErrorsResource;
 import com.jongminkim.demorestapi.events.*;
 import org.modelmapper.ModelMapper;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.web.PagedResourcesAssembler;
@@ -60,6 +61,33 @@ public class EventController {
         return ResponseEntity.ok(eventResource);
     }
 
+    @PutMapping("/{id}")
+    public ResponseEntity updateEvent(@PathVariable Integer id
+                                        , @RequestBody @Valid EventDto eventDto, Errors errors){
+
+        Optional<Event> optionalEvent = this.eventRepository.findById(id);
+        if (!optionalEvent.isPresent()){
+            return ResponseEntity.notFound().build();
+        }
+
+        if(errors.hasErrors()) {
+            return badRequest(errors);
+        }
+
+        this.eventValidator.validate(eventDto, errors);
+        if(errors.hasErrors()) {
+            return badRequest(errors);
+        }
+
+        Event existingEvent = optionalEvent.get();
+        this.modelMapper.map(eventDto, existingEvent);
+        Event savedEvent = this.eventRepository.save(existingEvent);
+
+        EventResource eventResource = new EventResource(savedEvent);
+        eventResource.add(new Link("/docs/index.html#resources-events-update").withRel("profile"));
+
+        return ResponseEntity.ok(eventResource);
+    }
     @PostMapping
     public ResponseEntity createEvent(@RequestBody @Valid EventDto eventDto, Errors errors){
         if(errors.hasErrors()) {

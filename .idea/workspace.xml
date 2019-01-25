@@ -1,9 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb61a8b-0989-44b0-bd3e-f28a35e28b6d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/jongminkim/demorestapi/EventControllerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jongminkim/demorestapi/EventControllerTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/jongminkim/demorestapi/index/IndexControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jongminkim/demorestapi/index/IndexControllerTest.java" afterDir="false" />
+    <list default="true" id="cdb61a8b-0989-44b0-bd3e-f28a35e28b6d" name="Default Changelist" comment="init commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/accounts/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/accounts/AccountRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/accounts/AccountRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/accounts/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jongminkim/demorestapi/accounts/AccountServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-rest-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-rest-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/DemoRestApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/DemoRestApiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/events/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/events/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jongminkim/demorestapi/events/Event$EventBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jongminkim/demorestapi/events/Event$EventBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jongminkim/demorestapi/events/Event.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jongminkim/demorestapi/events/Event.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,10 +28,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/jongminkim/demorestapi/EventControllerTests.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/jongminkim/demorestapi/accounts/AccountServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="39" column="60" selection-start-line="39" selection-start-column="60" selection-end-line="39" selection-end-column="60" />
+            <state relative-caret-position="2">
+              <caret line="74" column="11" selection-start-line="74" selection-start-column="11" selection-end-line="74" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -27,22 +40,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/jongminkim/demorestapi/index/IndexControllerTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/accounts/AccountRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="59" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/jongminkim/demorestapi/common/BaseControllerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+            <state relative-caret-position="75">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,50 +52,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/jongminkim/demorestapi/common/RestDocsConfiguration.java">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/application-test.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/events/Event.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="210">
+              <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/EventController.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.4.RELEASE/spring-beans-5.1.4.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="88" column="48" selection-start-line="88" selection-start-column="48" selection-end-line="88" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Optional.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="144" column="19" selection-start-line="144" selection-start-column="19" selection-end-line="144" selection-end-column="19" />
-              <folding>
-                <element signature="e#4242#4243#0" expanded="true" />
-                <element signature="e#4278#4279#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="158">
+              <caret line="370" selection-start-line="370" selection-end-line="370" />
             </state>
           </provider>
         </entry>
@@ -102,26 +81,54 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/jongminkim/demorestapi/DemoRestApiApplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="135">
+              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/config/SecurityConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="53" column="71" selection-start-line="53" selection-start-column="71" selection-end-line="53" selection-end-column="71" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#949#950#0" expanded="true" />
+                <element signature="e#1006#1007#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.1.4.RELEASE/spring-data-commons-2.1.4.RELEASE.jar!/org/springframework/data/web/PagedResourcesAssembler.class">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/config/AppConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="38" />
+            <state relative-caret-position="240">
+              <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#457#458#0" expanded="true" />
+                <element signature="e#484#485#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.3.RELEASE/spring-security-core-5.1.3.RELEASE.jar!/org/springframework/security/crypto/factory/PasswordEncoderFactories.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="56" column="31" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
+            <state relative-caret-position="105">
+              <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/DemoRestApiApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -131,13 +138,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="Interface" />
+        <option value="Enum" />
+        <option value="JUnit4 Test Class" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
+    <findStrings>
+      <find>h2</find>
+    </findStrings>
     <replaceStrings>
       <replace />
     </replaceStrings>
@@ -151,20 +162,16 @@
         <option value="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/events/EventStatus.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/events/EventRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/events/EntityDto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/DemoRestApiApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/events/EventDto.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/common/TestDescription.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/events/EventValidator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/common/ErrorsSerializer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/events/Event.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/jongminkim/demorestapi/events/EventTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/events/EventResorce.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/events/EventResource.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/jongminkim/demorestapi/common/RestDocsConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/asciidoc/index.adoc" />
         <option value="$PROJECT_DIR$/src/main/asciidoc/index.adoc" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/test/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/common/ErrorsResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/index/IndexController.java" />
@@ -172,6 +179,18 @@
         <option value="$PROJECT_DIR$/src/test/java/com/jongminkim/demorestapi/EventControllerTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/jongminkim/demorestapi/index/IndexControllerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/jongminkim/demorestapi/common/BaseControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jongminkim/demorestapi/accounts/AccountRole.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jongminkim/demorestapi/accounts/Account.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/events/Event.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/accounts/AccountService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/accounts/AccountRepository.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jongminkim/demorestapi/accounts/AccountServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/DemoRestApiApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/config/securityConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/config/AppConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/config/SecurityConfig.java" />
       </list>
     </option>
   </component>
@@ -204,14 +223,19 @@
           <item name="demo-rest-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="demo-rest-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="965" />
+    <option name="height" value="963" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -221,8 +245,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -246,13 +268,6 @@
               <item name="demo-rest-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="asciidoc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-rest-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo-rest-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -262,6 +277,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="demorestapi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-rest-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-rest-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demorestapi" type="462c0819:PsiDirectoryNode" />
+              <item name="accounts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demo-rest-api" type="b2602c69:ProjectViewProjectNode" />
@@ -279,7 +303,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="demorestapi" type="462c0819:PsiDirectoryNode" />
-              <item name="events" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demo-rest-api" type="b2602c69:ProjectViewProjectNode" />
@@ -288,7 +312,14 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="demorestapi" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
+              <item name="events" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-rest-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-rest-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demo-rest-api" type="b2602c69:ProjectViewProjectNode" />
@@ -310,6 +341,15 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="demorestapi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-rest-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-rest-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demorestapi" type="462c0819:PsiDirectoryNode" />
+              <item name="accounts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demo-rest-api" type="b2602c69:ProjectViewProjectNode" />
@@ -328,15 +368,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="demorestapi" type="462c0819:PsiDirectoryNode" />
               <item name="events" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-rest-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo-rest-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demorestapi" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demo-rest-api" type="b2602c69:ProjectViewProjectNode" />
@@ -349,6 +380,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -358,7 +391,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547798626627" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548449807914" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
@@ -370,7 +403,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.jongminkim.demorestapi.accounts" />
       <recent name="com.jongminkim.demorestapi.events" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.jongminkim.demorestapi" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main" />
@@ -378,10 +418,8 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.jongminkim.demorestapi.accounts" />
       <recent name="com.jongminkim.demorestapi.events" />
     </key>
   </component>
@@ -397,7 +435,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.com.jongminkim.demorestapi in demo-rest-api">
+  <component name="RunManager" selected="Spring Boot.DemoRestApiApplication">
+    <configuration name="AccountServiceTest.findByUsername" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo-rest-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jongminkim.demorestapi.accounts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jongminkim.demorestapi.accounts" />
+      <option name="MAIN_CLASS_NAME" value="com.jongminkim.demorestapi.accounts.AccountServiceTest" />
+      <option name="METHOD_NAME" value="findByUsername" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountServiceTest.findByUsernameFail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo-rest-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jongminkim.demorestapi.accounts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jongminkim.demorestapi.accounts" />
+      <option name="MAIN_CLASS_NAME" value="com.jongminkim.demorestapi.accounts.AccountServiceTest" />
+      <option name="METHOD_NAME" value="findByUsernameFail" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EventControllerTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo-rest-api" />
       <extension name="coverage">
@@ -409,38 +479,6 @@
       <option name="PACKAGE_NAME" value="com.jongminkim.demorestapi" />
       <option name="MAIN_CLASS_NAME" value="com.jongminkim.demorestapi.EventControllerTests" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EventControllerTests.getEvent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="demo-rest-api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jongminkim.demorestapi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.jongminkim.demorestapi" />
-      <option name="MAIN_CLASS_NAME" value="com.jongminkim.demorestapi.EventControllerTests" />
-      <option name="METHOD_NAME" value="getEvent" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EventControllerTests.updateEvent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="demo-rest-api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jongminkim.demorestapi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.jongminkim.demorestapi" />
-      <option name="MAIN_CLASS_NAME" value="com.jongminkim.demorestapi.EventControllerTests" />
-      <option name="METHOD_NAME" value="updateEvent" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -484,10 +522,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.com.jongminkim.demorestapi in demo-rest-api" />
+        <item itemvalue="JUnit.AccountServiceTest.findByUsernameFail" />
+        <item itemvalue="JUnit.AccountServiceTest.findByUsername" />
         <item itemvalue="JUnit.IndexControllerTest" />
         <item itemvalue="JUnit.EventControllerTests" />
-        <item itemvalue="JUnit.EventControllerTests.updateEvent" />
-        <item itemvalue="JUnit.EventControllerTests.getEvent" />
       </list>
     </recent_temporary>
   </component>
@@ -508,6 +546,9 @@
       <workItem from="1547702695657" duration="7784000" />
       <workItem from="1547751309431" duration="246000" />
       <workItem from="1547790741232" duration="7191000" />
+      <workItem from="1548180853968" duration="1241000" />
+      <workItem from="1548356182410" duration="954000" />
+      <workItem from="1548440294995" duration="4945000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1547527871740</created>
@@ -520,24 +561,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EventControllerTests_getEvent404 - 2019.01.17 at 22h 54m 28s.xml">
-      <configuration name="EventControllerTests.getEvent404" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EventControllerTests_getEvent - 2019.01.17 at 22h 55m 01s.xml">
-      <configuration name="EventControllerTests.getEvent" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EventControllerTests - 2019.01.17 at 22h 59m 35s.xml">
-      <configuration name="EventControllerTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EventControllerTests_updateEvent - 2019.01.17 at 23h 08m 40s.xml">
-      <configuration name="EventControllerTests.updateEvent" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EventControllerTests_updateEvent - 2019.01.17 at 23h 43m 46s.xml">
-      <configuration name="EventControllerTests.updateEvent" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EventControllerTests - 2019.01.17 at 23h 44m 15s.xml">
-      <configuration name="EventControllerTests" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="EventControllerTests - 2019.01.17 at 23h 53m 06s.xml">
       <configuration name="EventControllerTests" configurationId="JUnit" />
     </history-entry>
@@ -550,15 +573,32 @@
     <history-entry file="IndexControllerTest - 2019.01.18 at 00h 01m 13s.xml">
       <configuration name="IndexControllerTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AccountServiceTest_findByUsername - 2019.01.25 at 10h 58m 54s.xml">
+      <configuration name="AccountServiceTest.findByUsername" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AccountServiceTest_findByUsername - 2019.01.25 at 11h 01m 38s.xml">
+      <configuration name="AccountServiceTest.findByUsername" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AccountServiceTest_findByUsername - 2019.01.25 at 11h 03m 07s.xml">
+      <configuration name="AccountServiceTest.findByUsername" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AccountServiceTest_findByUsernameFail - 2019.01.25 at 11h 06m 30s.xml">
+      <configuration name="AccountServiceTest.findByUsernameFail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AccountServiceTest_findByUsernameFail - 2019.01.25 at 11h 10m 39s.xml">
+      <configuration name="AccountServiceTest.findByUsernameFail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="com_jongminkim_demorestapi_in_demo-rest-api - 2019.01.25 at 12h 40m 22s.xml">
+      <configuration name="com.jongminkim.demorestapi in demo-rest-api" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32054000" />
+    <option name="totallyTimeSpent" value="40583000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="965" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1680" height="963" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18864469" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21184371" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -568,24 +608,24 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7893773" weight="0.39404353" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8369963" weight="0.43986255" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7881563" weight="0.39380023" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8357753" weight="0.43972445" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" sideWeight="0.4996938" weight="0.3295063" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.73260075" visible="true" weight="0.22680412" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.72283274" visible="true" weight="0.40413317" />
       <window_info anchor="bottom" id="Docker" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.26739928" side_tool="true" visible="true" weight="0.22680412" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.2771673" side_tool="true" visible="true" weight="0.40413317" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="bottom" id="Flutter Performance" order="14" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="15" sideWeight="0.495116" weight="0.32760596" />
+      <window_info anchor="bottom" id="Messages" order="15" sideWeight="0.4945055" weight="0.3272101" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.17460318" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.15995117" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Flutter Inspector" order="6" />
@@ -616,13 +656,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/events/EventStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="68" selection-start-line="3" selection-start-column="68" selection-end-line="3" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.4/lombok-1.18.4.jar!/lombok/Data.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -667,8 +700,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/events/EventDto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+        <state relative-caret-position="105">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -696,16 +729,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/events/EventValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -832,65 +855,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/application-test.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/DemoRestApiApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/common/ErrorsResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="15" column="77" selection-start-line="15" selection-start-column="77" selection-end-line="15" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="56" column="31" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.1.4.RELEASE/spring-data-commons-2.1.4.RELEASE.jar!/org/springframework/data/web/PagedResourcesAssembler.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jongminkim/demorestapi/DemoRestApiApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/events/Event.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -905,10 +873,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/EventController.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.4.RELEASE/spring-context-5.1.4.RELEASE.jar!/org/springframework/validation/Errors.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="88" column="48" selection-start-line="88" selection-start-column="48" selection-end-line="88" selection-end-column="48" />
+        <state relative-caret-position="495">
+          <caret line="37" column="12" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jongminkim/demorestapi/index/IndexControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="20" column="59" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.1.4.RELEASE/spring-test-5.1.4.RELEASE.jar!/org/springframework/test/web/servlet/result/MockMvcResultMatchers.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="92" column="41" selection-start-line="92" selection-start-column="41" selection-end-line="92" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jongminkim/demorestapi/EventControllerTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="39" column="62" selection-start-line="39" selection-start-column="62" selection-end-line="39" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -917,7 +909,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/jongminkim/demorestapi/common/RestDocsConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
+        <state relative-caret-position="75">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -925,20 +917,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jongminkim/demorestapi/EventControllerTests.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/EventController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="39" column="60" selection-start-line="39" selection-start-column="60" selection-end-line="39" selection-end-column="60" />
+        <state relative-caret-position="165">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jongminkim/demorestapi/index/IndexControllerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/events/EventValidator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="59" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
+        <state relative-caret-position="105">
+          <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/common/ErrorsResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -947,10 +949,150 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/jongminkim/demorestapi/common/BaseControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        <state relative-caret-position="90">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-rest-api.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/accounts/AccountRole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/events/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="62" column="8" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.3.RELEASE/spring-security-core-5.1.3.RELEASE.jar!/org/springframework/security/core/userdetails/UserDetailsService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/accounts/AccountService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/accounts/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jongminkim/demorestapi/accounts/AccountServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2">
+          <caret line="74" column="11" selection-start-line="74" selection-start-column="11" selection-end-line="74" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jongminkim/demorestapi/DemoRestApiApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/DemoRestApiApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.3.RELEASE/spring-security-core-5.1.3.RELEASE.jar!/org/springframework/security/crypto/factory/PasswordEncoderFactories.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/config/AppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/accounts/AccountRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/application-test.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.4.RELEASE/spring-beans-5.1.4.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="370" selection-start-line="370" selection-end-line="370" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/config/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="53" column="71" selection-start-line="53" selection-start-column="71" selection-end-line="53" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#949#950#0" expanded="true" />
+            <element signature="e#1006#1007#0" expanded="true" />
           </folding>
         </state>
       </provider>

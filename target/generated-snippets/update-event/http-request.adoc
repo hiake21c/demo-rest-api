@@ -1,8 +1,9 @@
 [source,http,options="nowrap"]
 ----
-PUT /api/events/33 HTTP/1.1
+PUT /api/events/35 HTTP/1.1
 Content-Length: 406
 Content-Type: application/json;charset=UTF-8
+Authorization: Bearer 68e1288c-0699-497c-bacb-b2d3fd878933
 Host: localhost:8080
 
 {

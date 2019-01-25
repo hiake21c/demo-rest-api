@@ -1,8 +1,10 @@
 package com.jongminkim.demorestapi.config;
 
 import com.jongminkim.demorestapi.accounts.Account;
+import com.jongminkim.demorestapi.accounts.AccountRepository;
 import com.jongminkim.demorestapi.accounts.AccountRole;
 import com.jongminkim.demorestapi.accounts.AccountService;
+import com.jongminkim.demorestapi.common.AppProperties;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
@@ -14,7 +16,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 
 import java.util.Arrays;
 import java.util.HashSet;
-import java.util.Set;
+import java.util.Optional;
 
 @Configuration
 public class AppConfig {
@@ -36,16 +38,41 @@ public class AppConfig {
 
             @Autowired
             AccountService accountService;
+
+            @Autowired
+            AccountRepository accountRepository;
+
+            @Autowired
+            AppProperties appProperties;
+
             @Override
             public void run(ApplicationArguments args) throws Exception {
 
-                Account jongmin = Account.builder()
-                        .email("jongmin@email.com")
-                        .password("jongmin")
-                        .roles(new HashSet<>(Arrays.asList(AccountRole.AMDIN, AccountRole.USER)))
-                        .build();
+                Optional<Account> accountOptional = accountRepository.findByEmail(appProperties.getAdminUsername());
 
-                accountService.saveAccount(jongmin);
+                if(!accountOptional.isPresent()) {
+                    Account jongmin = Account.builder()
+                            .email(appProperties.getAdminUsername())
+                            .password(appProperties.getAdminPassword())
+                            .roles(new HashSet<>(Arrays.asList(AccountRole.AMDIN, AccountRole.USER)))
+                            .build();
+
+                    accountService.saveAccount(jongmin);
+                }
+
+
+                Optional<Account> userAccountOptional = accountRepository.findByEmail(appProperties.getUserUserName());
+
+                if(!userAccountOptional.isPresent()) {
+                    Account userAccount = Account.builder()
+                            .email(appProperties.getUserUserName())
+                            .password(appProperties.getUserPassword())
+                            .roles(new HashSet<>(Arrays.asList(AccountRole.USER)))
+                            .build();
+
+                    accountService.saveAccount(userAccount);
+                }
+
             }
         };
     }

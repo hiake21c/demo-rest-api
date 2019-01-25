@@ -2,6 +2,7 @@
 ----
 $ curl 'http://localhost:8080/api/events/' -i -X POST \
     -H 'Content-Type: application/json;charset=UTF-8' \
+    -H 'Authorization: Bearer 68e1288c-0699-497c-bacb-b2d3fd878933' \
     -H 'Accept: application/hal+json' \
     -d '{
   "name" : "spring",

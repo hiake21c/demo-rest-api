@@ -1,11 +1,17 @@
 [source,http,options="nowrap"]
 ----
 HTTP/1.1 200 OK
-Content-Length: 660
+Pragma: no-cache
+Content-Length: 680
+X-XSS-Protection: 1; mode=block
+Expires: 0
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
 Content-Type: application/hal+json;charset=UTF-8
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
 
 {
-  "id" : 36,
+  "id" : 38,
   "name" : "spring",
   "description" : "REST API Development with spring",
   "beginEnrollmentDateTime" : "2018-12-24T13:13:00",
@@ -19,9 +25,10 @@ Content-Type: application/hal+json;charset=UTF-8
   "offline" : false,
   "free" : true,
   "eventStatus" : "DRAFT",
+  "account" : null,
   "_links" : {
     "self" : {
-      "href" : "http://localhost:8080/api/events/36"
+      "href" : "http://localhost:8080/api/events/38"
     },
     "profile" : {
       "href" : "/docs/index.html#resources-events-get-an-event"

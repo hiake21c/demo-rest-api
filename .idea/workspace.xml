@@ -1,41 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb61a8b-0989-44b0-bd3e-f28a35e28b6d" name="Default Changelist" comment="init commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/common/AppProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/config/ResourceServerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-rest-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-rest-api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/accounts/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/accounts/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/config/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/config/AuthServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/config/AuthServerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/jongminkim/demorestapi/EventControllerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jongminkim/demorestapi/EventControllerTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/jongminkim/demorestapi/config/AuthServerConfigTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jongminkim/demorestapi/config/AuthServerConfigTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jongminkim/demorestapi/accounts/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jongminkim/demorestapi/accounts/Account.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jongminkim/demorestapi/config/AppConfig$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jongminkim/demorestapi/config/AppConfig$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jongminkim/demorestapi/config/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jongminkim/demorestapi/config/AppConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/create-event/curl-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/create-event/curl-request.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/create-event/http-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/create-event/http-request.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/create-event/http-response.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/create-event/http-response.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/create-event/httpie-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/create-event/httpie-request.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/create-event/response-body.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/create-event/response-body.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/get-an-event/curl-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/get-an-event/curl-request.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/get-an-event/http-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/get-an-event/http-request.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/get-an-event/http-response.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/get-an-event/http-response.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/get-an-event/httpie-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/get-an-event/httpie-request.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/get-an-event/response-body.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/get-an-event/response-body.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/query-events/http-response.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/query-events/http-response.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/query-events/response-body.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/query-events/response-body.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/update-event/curl-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/update-event/curl-request.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/update-event/http-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/update-event/http-request.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/update-event/http-response.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/update-event/http-response.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/update-event/httpie-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/update-event/httpie-request.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/update-event/response-body.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/update-event/response-body.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/jongminkim/demorestapi/EventControllerTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/jongminkim/demorestapi/EventControllerTests.class" afterDir="false" />
-    </list>
+    <list default="true" id="cdb61a8b-0989-44b0-bd3e-f28a35e28b6d" name="Default Changelist" comment="init commit" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -439,7 +405,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548456375546" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548456691659" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
@@ -597,7 +563,7 @@
       <workItem from="1547790741232" duration="7191000" />
       <workItem from="1548180853968" duration="1241000" />
       <workItem from="1548356182410" duration="954000" />
-      <workItem from="1548440294995" duration="10551000" />
+      <workItem from="1548440294995" duration="10848000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1547527871740</created>
@@ -642,11 +608,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46189000" />
+    <option name="totallyTimeSpent" value="46486000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="963" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21184371" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -658,15 +623,15 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7826618" visible="true" weight="0.39265212" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7826618" weight="0.39265212" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8321123" weight="0.43972445" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" sideWeight="0.4996938" weight="0.3295063" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.72161174" weight="0.40413317" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.7210012" visible="true" weight="0.40413317" />
       <window_info anchor="bottom" id="Docker" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.21733822" side_tool="true" visible="true" weight="0.39265212" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.2789988" side_tool="true" visible="true" weight="0.40413317" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />

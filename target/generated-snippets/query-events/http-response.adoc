@@ -3,9 +3,9 @@
 HTTP/1.1 200 OK
 Pragma: no-cache
 X-XSS-Protection: 1; mode=block
-Content-Length: 7614
 Expires: 0
 X-Frame-Options: DENY
+Content-Length: 7834
 X-Content-Type-Options: nosniff
 Content-Type: application/hal+json;charset=UTF-8
 Cache-Control: no-cache, no-store, max-age=0, must-revalidate
@@ -27,73 +27,12 @@ Cache-Control: no-cache, no-store, max-age=0, must-revalidate
       "offline" : false,
       "free" : true,
       "eventStatus" : "DRAFT",
-      "manager" : null,
+      "manager" : {
+        "id" : 2
+      },
       "_links" : {
         "self" : {
           "href" : "http://localhost:8080/api/events/34"
-        }
-      }
-    }, {
-      "id" : 39,
-      "name" : "spring",
-      "description" : "REST API Development with spring",
-      "beginEnrollmentDateTime" : "2018-12-24T13:13:00",
-      "closeEnrollmentDateTime" : "2018-12-25T13:13:00",
-      "beginEventDateTime" : "2018-12-24T13:13:00",
-      "endEventDateTime" : "2018-12-25T13:13:13",
-      "location" : "강남역  D2 스타텁 팩토리",
-      "basePrice" : 100,
-      "maxPrice" : 200,
-      "limitOfEnrollment" : 100,
-      "offline" : false,
-      "free" : true,
-      "eventStatus" : "DRAFT",
-      "manager" : null,
-      "_links" : {
-        "self" : {
-          "href" : "http://localhost:8080/api/events/39"
-        }
-      }
-    }, {
-      "id" : 38,
-      "name" : "spring",
-      "description" : "REST API Development with spring",
-      "beginEnrollmentDateTime" : "2018-12-24T13:13:00",
-      "closeEnrollmentDateTime" : "2018-12-25T13:13:00",
-      "beginEventDateTime" : "2018-12-24T13:13:00",
-      "endEventDateTime" : "2018-12-25T13:13:13",
-      "location" : "강남역  D2 스타텁 팩토리",
-      "basePrice" : 100,
-      "maxPrice" : 200,
-      "limitOfEnrollment" : 100,
-      "offline" : false,
-      "free" : true,
-      "eventStatus" : "DRAFT",
-      "manager" : null,
-      "_links" : {
-        "self" : {
-          "href" : "http://localhost:8080/api/events/38"
-        }
-      }
-    }, {
-      "id" : 37,
-      "name" : "spring",
-      "description" : "REST API Development with spring",
-      "beginEnrollmentDateTime" : "2018-12-24T13:13:00",
-      "closeEnrollmentDateTime" : "2018-12-25T13:13:00",
-      "beginEventDateTime" : "2018-12-24T13:13:00",
-      "endEventDateTime" : "2018-12-25T13:13:13",
-      "location" : "강남역  D2 스타텁 팩토리",
-      "basePrice" : 100,
-      "maxPrice" : 200,
-      "limitOfEnrollment" : 100,
-      "offline" : false,
-      "free" : true,
-      "eventStatus" : "DRAFT",
-      "manager" : null,
-      "_links" : {
-        "self" : {
-          "href" : "http://localhost:8080/api/events/37"
         }
       }
     }, {
@@ -111,10 +50,81 @@ Cache-Control: no-cache, no-store, max-age=0, must-revalidate
       "offline" : false,
       "free" : true,
       "eventStatus" : "DRAFT",
-      "manager" : null,
+      "manager" : {
+        "id" : 2
+      },
       "_links" : {
         "self" : {
           "href" : "http://localhost:8080/api/events/40"
+        }
+      }
+    }, {
+      "id" : 38,
+      "name" : "spring",
+      "description" : "REST API Development with spring",
+      "beginEnrollmentDateTime" : "2018-12-24T13:13:00",
+      "closeEnrollmentDateTime" : "2018-12-25T13:13:00",
+      "beginEventDateTime" : "2018-12-24T13:13:00",
+      "endEventDateTime" : "2018-12-25T13:13:13",
+      "location" : "강남역  D2 스타텁 팩토리",
+      "basePrice" : 100,
+      "maxPrice" : 200,
+      "limitOfEnrollment" : 100,
+      "offline" : false,
+      "free" : true,
+      "eventStatus" : "DRAFT",
+      "manager" : {
+        "id" : 2
+      },
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost:8080/api/events/38"
+        }
+      }
+    }, {
+      "id" : 39,
+      "name" : "spring",
+      "description" : "REST API Development with spring",
+      "beginEnrollmentDateTime" : "2018-12-24T13:13:00",
+      "closeEnrollmentDateTime" : "2018-12-25T13:13:00",
+      "beginEventDateTime" : "2018-12-24T13:13:00",
+      "endEventDateTime" : "2018-12-25T13:13:13",
+      "location" : "강남역  D2 스타텁 팩토리",
+      "basePrice" : 100,
+      "maxPrice" : 200,
+      "limitOfEnrollment" : 100,
+      "offline" : false,
+      "free" : true,
+      "eventStatus" : "DRAFT",
+      "manager" : {
+        "id" : 2
+      },
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost:8080/api/events/39"
+        }
+      }
+    }, {
+      "id" : 37,
+      "name" : "spring",
+      "description" : "REST API Development with spring",
+      "beginEnrollmentDateTime" : "2018-12-24T13:13:00",
+      "closeEnrollmentDateTime" : "2018-12-25T13:13:00",
+      "beginEventDateTime" : "2018-12-24T13:13:00",
+      "endEventDateTime" : "2018-12-25T13:13:13",
+      "location" : "강남역  D2 스타텁 팩토리",
+      "basePrice" : 100,
+      "maxPrice" : 200,
+      "limitOfEnrollment" : 100,
+      "offline" : false,
+      "free" : true,
+      "eventStatus" : "DRAFT",
+      "manager" : {
+        "id" : 2
+      },
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost:8080/api/events/37"
         }
       }
     }, {
@@ -132,7 +142,9 @@ Cache-Control: no-cache, no-store, max-age=0, must-revalidate
       "offline" : false,
       "free" : true,
       "eventStatus" : "DRAFT",
-      "manager" : null,
+      "manager" : {
+        "id" : 2
+      },
       "_links" : {
         "self" : {
           "href" : "http://localhost:8080/api/events/33"
@@ -153,14 +165,16 @@ Cache-Control: no-cache, no-store, max-age=0, must-revalidate
       "offline" : false,
       "free" : true,
       "eventStatus" : "DRAFT",
-      "manager" : null,
+      "manager" : {
+        "id" : 2
+      },
       "_links" : {
         "self" : {
           "href" : "http://localhost:8080/api/events/58"
         }
       }
     }, {
-      "id" : 57,
+      "id" : 59,
       "name" : "spring",
       "description" : "REST API Development with spring",
       "beginEnrollmentDateTime" : "2018-12-24T13:13:00",
@@ -174,10 +188,12 @@ Cache-Control: no-cache, no-store, max-age=0, must-revalidate
       "offline" : false,
       "free" : true,
       "eventStatus" : "DRAFT",
-      "manager" : null,
+      "manager" : {
+        "id" : 2
+      },
       "_links" : {
         "self" : {
-          "href" : "http://localhost:8080/api/events/57"
+          "href" : "http://localhost:8080/api/events/59"
         }
       }
     }, {
@@ -195,14 +211,16 @@ Cache-Control: no-cache, no-store, max-age=0, must-revalidate
       "offline" : false,
       "free" : true,
       "eventStatus" : "DRAFT",
-      "manager" : null,
+      "manager" : {
+        "id" : 2
+      },
       "_links" : {
         "self" : {
           "href" : "http://localhost:8080/api/events/60"
         }
       }
     }, {
-      "id" : 63,
+      "id" : 64,
       "name" : "spring",
       "description" : "REST API Development with spring",
       "beginEnrollmentDateTime" : "2018-12-24T13:13:00",
@@ -216,10 +234,12 @@ Cache-Control: no-cache, no-store, max-age=0, must-revalidate
       "offline" : false,
       "free" : true,
       "eventStatus" : "DRAFT",
-      "manager" : null,
+      "manager" : {
+        "id" : 2
+      },
       "_links" : {
         "self" : {
-          "href" : "http://localhost:8080/api/events/63"
+          "href" : "http://localhost:8080/api/events/64"
         }
       }
     } ]

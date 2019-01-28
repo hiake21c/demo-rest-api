@@ -1,8 +1,8 @@
 [source,bash]
 ----
-$ curl 'http://localhost:8080/api/events/35' -i -X PUT \
+$ curl 'http://localhost:8080/api/events/65' -i -X PUT \
+    -H 'Authorization: Bearer 0c89dcf1-fde1-4703-a2d7-61a19496a505' \
     -H 'Content-Type: application/json;charset=UTF-8' \
-    -H 'Authorization: Bearer 68e1288c-0699-497c-bacb-b2d3fd878933' \
     -d '{
   "name" : "Updated Event",
   "description" : "REST API Development with spring",

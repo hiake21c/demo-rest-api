@@ -2,16 +2,16 @@
 ----
 HTTP/1.1 200 OK
 Pragma: no-cache
-Content-Length: 680
 X-XSS-Protection: 1; mode=block
 Expires: 0
 X-Frame-Options: DENY
 X-Content-Type-Options: nosniff
 Content-Type: application/hal+json;charset=UTF-8
+Content-Length: 694
 Cache-Control: no-cache, no-store, max-age=0, must-revalidate
 
 {
-  "id" : 38,
+  "id" : 68,
   "name" : "spring",
   "description" : "REST API Development with spring",
   "beginEnrollmentDateTime" : "2018-12-24T13:13:00",
@@ -25,10 +25,12 @@ Cache-Control: no-cache, no-store, max-age=0, must-revalidate
   "offline" : false,
   "free" : true,
   "eventStatus" : "DRAFT",
-  "account" : null,
+  "manager" : {
+    "id" : 2
+  },
   "_links" : {
     "self" : {
-      "href" : "http://localhost:8080/api/events/38"
+      "href" : "http://localhost:8080/api/events/68"
     },
     "profile" : {
       "href" : "/docs/index.html#resources-events-get-an-event"

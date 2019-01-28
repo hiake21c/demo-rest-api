@@ -2,21 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb61a8b-0989-44b0-bd3e-f28a35e28b6d" name="Default Changelist" comment="init commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/accounts/AccountAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/accounts/AccountSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/accounts/CurrentUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/EventController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/EventController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/accounts/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/accounts/AccountService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/events/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/events/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/jongminkim/demorestapi/DemoRestApiApplicationTests.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/jongminkim/demorestapi/EventControllerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jongminkim/demorestapi/EventControllerTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jongminkim/demorestapi/EventController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jongminkim/demorestapi/EventController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jongminkim/demorestapi/accounts/AccountService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jongminkim/demorestapi/accounts/AccountService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jongminkim/demorestapi/config/ResourceServerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jongminkim/demorestapi/config/ResourceServerConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-snippets/create-event/curl-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/create-event/curl-request.adoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-snippets/create-event/http-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/create-event/http-request.adoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-snippets/create-event/httpie-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/create-event/httpie-request.adoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-snippets/get-an-event/curl-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/get-an-event/curl-request.adoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-snippets/get-an-event/http-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/get-an-event/http-request.adoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-snippets/get-an-event/http-response.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/get-an-event/http-response.adoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-snippets/get-an-event/httpie-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/get-an-event/httpie-request.adoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-snippets/get-an-event/response-body.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/get-an-event/response-body.adoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-snippets/query-events/curl-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/query-events/curl-request.adoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-snippets/query-events/http-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/query-events/http-request.adoc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/generated-snippets/query-events/http-response.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/query-events/http-response.adoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-snippets/query-events/httpie-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/query-events/httpie-request.adoc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/generated-snippets/query-events/response-body.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/query-events/response-body.adoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/jongminkim/demorestapi/DemoRestApiApplicationTests.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/jongminkim/demorestapi/EventControllerTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/jongminkim/demorestapi/EventControllerTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/jongminkim/demorestapi/config/AuthServerConfigTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/jongminkim/demorestapi/config/AuthServerConfigTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,10 +55,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/events/EventDto.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/accounts/AccountSerializer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+              <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,8 +107,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/jongminkim/demorestapi/EventControllerTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2819">
-              <caret line="211" selection-start-line="211" selection-end-line="211" />
+            <state relative-caret-position="179">
+              <caret line="260" column="105" selection-start-line="260" selection-start-column="105" selection-end-line="260" selection-end-column="105" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/common/AppProperties.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -106,30 +133,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="366">
               <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/jongminkim/demorestapi/config/AuthServerConfigTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/jongminkim/demorestapi/common/BaseControllerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="20" selection-start-line="20" selection-end-line="20" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -169,6 +172,8 @@
       <find>error</find>
       <find>get</find>
       <find>10개</find>
+      <find>gener</find>
+      <find>access</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -183,7 +188,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/events/EventStatus.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/events/EventRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/events/EntityDto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/events/EventDto.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/common/TestDescription.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/events/EventValidator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/common/ErrorsSerializer.java" />
@@ -215,12 +219,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/config/ResourceServerConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/accounts/AccountService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/accounts/AccountAdapter.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jongminkim/demorestapi/EventControllerTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/accounts/CurreuntUser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/accounts/CurrentUser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/EventController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/accounts/AccountSerializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/events/Event.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jongminkim/demorestapi/DemoRestApiApplicationTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/events/EventDto.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jongminkim/demorestapi/EventControllerTests.java" />
       </list>
     </option>
   </component>
@@ -313,42 +319,6 @@
               <item name="demo-rest-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demorestapi" type="462c0819:PsiDirectoryNode" />
-              <item name="accounts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-rest-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo-rest-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demorestapi" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-rest-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo-rest-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demorestapi" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-rest-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo-rest-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demorestapi" type="462c0819:PsiDirectoryNode" />
-              <item name="events" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-rest-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo-rest-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -430,7 +400,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548641757293" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548643169116" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
@@ -476,22 +446,6 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.com.jongminkim.demorestapi in demo-rest-api">
-    <configuration name="AuthServerConfigTest.getAuthToken" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="demo-rest-api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jongminkim.demorestapi.config.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.jongminkim.demorestapi.config" />
-      <option name="MAIN_CLASS_NAME" value="com.jongminkim.demorestapi.config.AuthServerConfigTest" />
-      <option name="METHOD_NAME" value="getAuthToken" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="EventControllerTests.createEvent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo-rest-api" />
       <extension name="coverage">
@@ -540,6 +494,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EventControllerTests.updateEvent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo-rest-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jongminkim.demorestapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jongminkim.demorestapi" />
+      <option name="MAIN_CLASS_NAME" value="com.jongminkim.demorestapi.EventControllerTests" />
+      <option name="METHOD_NAME" value="updateEvent" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="com.jongminkim.demorestapi in demo-rest-api" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo-rest-api" />
       <extension name="coverage">
@@ -564,10 +534,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.com.jongminkim.demorestapi in demo-rest-api" />
+        <item itemvalue="JUnit.EventControllerTests.updateEvent" />
         <item itemvalue="JUnit.EventControllerTests.createEvent" />
         <item itemvalue="JUnit.EventControllerTests.queryEvents" />
         <item itemvalue="JUnit.EventControllerTests.queryEventsWithAuthentication" />
-        <item itemvalue="JUnit.AuthServerConfigTest.getAuthToken" />
       </list>
     </recent_temporary>
   </component>
@@ -596,7 +566,7 @@
       <workItem from="1548473700176" duration="80000" />
       <workItem from="1548473963627" duration="109000" />
       <workItem from="1548524722701" duration="243000" />
-      <workItem from="1548637484215" duration="3463000" />
+      <workItem from="1548637484215" duration="4668000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1547527871740</created>
@@ -609,42 +579,43 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AuthServerConfigTest_getAuthToken - 2019.01.25 at 14h 41m 50s.xml">
-      <configuration name="AuthServerConfigTest.getAuthToken" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AuthServerConfigTest_getAuthToken - 2019.01.25 at 14h 42m 24s.xml">
-      <configuration name="AuthServerConfigTest.getAuthToken" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AuthServerConfigTest_getAuthToken - 2019.01.25 at 14h 42m 44s.xml">
-      <configuration name="AuthServerConfigTest.getAuthToken" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AuthServerConfigTest_getAuthToken - 2019.01.25 at 14h 44m 02s.xml">
-      <configuration name="AuthServerConfigTest.getAuthToken" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="com_jongminkim_demorestapi_in_demo-rest-api - 2019.01.25 at 14h 45m 45s.xml">
+    <history-entry file="com_jongminkim_demorestapi_in_demo-rest-api - 2019.01.28 at 03h 16m 10s.xml">
       <configuration name="com.jongminkim.demorestapi in demo-rest-api" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EventControllerTests_queryEventsWithAuthentication - 2019.01.28 at 02h 30m 16s.xml">
-      <configuration name="EventControllerTests.queryEventsWithAuthentication" configurationId="JUnit" />
+    <history-entry file="com_jongminkim_demorestapi_in_demo-rest-api - 2019.01.28 at 03h 21m 10s.xml">
+      <configuration name="com.jongminkim.demorestapi in demo-rest-api" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EventControllerTests_queryEventsWithAuthentication - 2019.01.28 at 02h 30m 46s.xml">
-      <configuration name="EventControllerTests.queryEventsWithAuthentication" configurationId="JUnit" />
+    <history-entry file="com_jongminkim_demorestapi_in_demo-rest-api - 2019.01.28 at 03h 21m 33s.xml">
+      <configuration name="com.jongminkim.demorestapi in demo-rest-api" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EventControllerTests_queryEvents - 2019.01.28 at 02h 31m 16s.xml">
-      <configuration name="EventControllerTests.queryEvents" configurationId="JUnit" />
+    <history-entry file="EventControllerTests_updateEvent - 2019.01.28 at 03h 30m 05s.xml">
+      <configuration name="EventControllerTests.updateEvent" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EventControllerTests_queryEvents - 2019.01.28 at 02h 44m 36s.xml">
-      <configuration name="EventControllerTests.queryEvents" configurationId="JUnit" />
+    <history-entry file="com_jongminkim_demorestapi_in_demo-rest-api - 2019.01.28 at 03h 32m 08s.xml">
+      <configuration name="com.jongminkim.demorestapi in demo-rest-api" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EventControllerTests_createEvent - 2019.01.28 at 03h 13m 52s.xml">
-      <configuration name="EventControllerTests.createEvent" configurationId="JUnit" />
+    <history-entry file="com_jongminkim_demorestapi_in_demo-rest-api - 2019.01.28 at 03h 32m 44s.xml">
+      <configuration name="com.jongminkim.demorestapi in demo-rest-api" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="com_jongminkim_demorestapi_in_demo-rest-api - 2019.01.28 at 03h 34m 18s.xml">
+      <configuration name="com.jongminkim.demorestapi in demo-rest-api" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="com_jongminkim_demorestapi_in_demo-rest-api - 2019.01.28 at 03h 35m 03s.xml">
+      <configuration name="com.jongminkim.demorestapi in demo-rest-api" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="com_jongminkim_demorestapi_in_demo-rest-api - 2019.01.28 at 03h 37m 16s.xml">
+      <configuration name="com.jongminkim.demorestapi in demo-rest-api" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="com_jongminkim_demorestapi_in_demo-rest-api - 2019.01.28 at 03h 38m 02s.xml">
+      <configuration name="com.jongminkim.demorestapi in demo-rest-api" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53107000" />
+    <option name="totallyTimeSpent" value="54312000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="963" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25091577" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -656,15 +627,15 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.78083026" visible="true" weight="0.39265212" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.83150184" weight="0.43972445" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.77960926" visible="true" weight="0.34902412" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8308913" weight="0.43972445" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" sideWeight="0.4996938" weight="0.3295063" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.7173382" weight="0.3880597" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.71672773" weight="0.3880597" />
       <window_info anchor="bottom" id="Docker" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.21916972" side_tool="true" visible="true" weight="0.39265212" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.22039072" side_tool="true" visible="true" weight="0.34902412" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
@@ -979,16 +950,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/common/AppProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/jongminkim/demorestapi/accounts/AccountServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -1009,27 +970,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jongminkim/demorestapi/DemoRestApiApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/events/EventRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="69" selection-start-line="4" selection-start-column="69" selection-end-line="4" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/events/EventDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1115,7 +1059,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/accounts/AccountSerializer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1142,10 +1086,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jongminkim/demorestapi/DemoRestApiApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/common/AppProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jongminkim/demorestapi/events/EventDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/jongminkim/demorestapi/EventControllerTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2819">
-          <caret line="211" selection-start-line="211" selection-end-line="211" />
+        <state relative-caret-position="179">
+          <caret line="260" column="105" selection-start-line="260" selection-start-column="105" selection-end-line="260" selection-end-column="105" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

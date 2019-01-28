@@ -1,5 +1,7 @@
 package com.jongminkim.demorestapi;
 
+import com.jongminkim.demorestapi.accounts.Account;
+import com.jongminkim.demorestapi.accounts.AccountRepository;
 import com.jongminkim.demorestapi.common.AppProperties;
 import com.jongminkim.demorestapi.common.BaseControllerTest;
 import com.jongminkim.demorestapi.common.TestDescription;
@@ -18,6 +20,7 @@ import org.springframework.test.web.servlet.ResultActions;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
 import java.time.LocalDateTime;
+import java.util.Optional;
 import java.util.stream.IntStream;
 
 import static org.springframework.restdocs.headers.HeaderDocumentation.*;
@@ -34,6 +37,9 @@ public class EventControllerTests extends BaseControllerTest {
 
     @Autowired
     EventRepository eventRepository;
+
+    @Autowired
+    AccountRepository accountRepository;
 
     @Autowired
     AppProperties appProperties;
@@ -252,6 +258,8 @@ public class EventControllerTests extends BaseControllerTest {
     }
 
     private Event generateEvent(int index) {
+        Optional<Account> accountOptional = accountRepository.findByEmail(appProperties.getUserUserName());
+
         Event event = Event.builder()
                 .name("spring")
                 .description("REST API Development with spring")
@@ -261,6 +269,7 @@ public class EventControllerTests extends BaseControllerTest {
                 .closeEnrollmentDateTime(LocalDateTime.of(2018,12,25,13,13))
                 .basePrice(100)
                 .maxPrice(200)
+                .manager(accountOptional.get())
                 .limitOfEnrollment(100)
                 .location("강남역  D2 스타텁 팩토리")
                 .free(true)
@@ -317,9 +326,7 @@ public class EventControllerTests extends BaseControllerTest {
         .andExpect(status().isOk())
         .andExpect(jsonPath("name").value(eventName))
         .andExpect(jsonPath("_links.self").exists())
-        .andDo(document("update-event"))
-
-                ;
+        .andDo(document("update-event"));
     }
 
     @Test

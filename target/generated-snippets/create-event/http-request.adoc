@@ -1,7 +1,7 @@
 [source,http,options="nowrap"]
 ----
 POST /api/events/ HTTP/1.1
-Authorization: Bearer 46e70fd3-3c11-4251-880c-88f3112f58ec
+Authorization: Bearer 0c89dcf1-fde1-4703-a2d7-61a19496a505
 Content-Type: application/json;charset=UTF-8
 Accept: application/hal+json
 Host: localhost:8080

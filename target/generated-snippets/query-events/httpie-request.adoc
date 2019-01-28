@@ -1,4 +1,5 @@
 [source,bash]
 ----
-$ http GET 'http://localhost:8080/api/events?page=1&size=10&sort=name%2CDESC'
+$ http GET 'http://localhost:8080/api/events?page=1&size=10&sort=name%2CDESC' \
+    'Authorization:Bearer 46e70fd3-3c11-4251-880c-88f3112f58ec'
 ----

@@ -1,6 +1,8 @@
 package com.jongminkim.demorestapi.events;
 
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import com.jongminkim.demorestapi.accounts.Account;
+import com.jongminkim.demorestapi.accounts.AccountSerializer;
 import lombok.*;
 
 import javax.persistence.*;
@@ -33,7 +35,8 @@ public class Event {
     @Enumerated(EnumType.STRING)
     private EventStatus eventStatus = EventStatus.DRAFT;
     @ManyToOne
-    private Account account;
+    @JsonSerialize(using = AccountSerializer.class)
+    private Account manager;
 
     public void update() {
         if(this.basePrice == 0 && this.maxPrice == 0){

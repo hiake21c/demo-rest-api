@@ -12,7 +12,7 @@ $ echo '{
   "maxPrice" : 200,
   "limitOfEnrollment" : 100
 }' | http POST 'http://localhost:8080/api/events/' \
+    'Authorization:Bearer 46e70fd3-3c11-4251-880c-88f3112f58ec' \
     'Content-Type:application/json;charset=UTF-8' \
-    'Authorization:Bearer 68e1288c-0699-497c-bacb-b2d3fd878933' \
     'Accept:application/hal+json'
 ----
